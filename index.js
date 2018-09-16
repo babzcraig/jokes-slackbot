@@ -41,6 +41,8 @@ function handleMessage(message) {
     yoMamaJoke();
   } else if (message.includes(" random")) {
     randomJoke();
+  } else if (message.includes(" help")) {
+    runHelp();
   }
 }
 
@@ -70,4 +72,17 @@ function randomJoke() {
   } else if (rand === 2) {
     yoMamaJoke();
   }
+}
+
+// Show instructions
+function runHelp() {
+  const params = {
+    icon_emoji: ":question:"
+  };
+
+  bot.postMessageToChannel(
+    "general",
+    `Message @jokebot with a message including either 'chucknorris', 'Yo Momma' or 'random' to get a joke`,
+    params
+  );
 }
