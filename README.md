@@ -1,2 +1,2 @@
 # jokes-slackbot
-Playing around with the slackbot apI prequel to building a slackbot which provides randomized daily workouts
+Playing around with the slackbot API prequel to building a slackbot which provides randomized daily workouts
