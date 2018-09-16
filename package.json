@@ -1,0 +1,23 @@
+{
+  "name": "jokes-slackbot",
+  "version": "1.0.0",
+  "description": "Random jokes from around the internet delivered to you on slack!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babzcraig/jokes-slackbot.git"
+  },
+  "author": "Babs Craig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babzcraig/jokes-slackbot/issues"
+  },
+  "homepage": "https://github.com/babzcraig/jokes-slackbot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.1.0"
+  }
+}
